@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    p1 {
+        font-size: 15px;
+    }
+    p2 {
+        font-size: 20px;
+    }
+    a:link, a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }       
+    a:hover, a:active {
+        background-color: red;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    img.ex1 {
+        margin: 20px 20px 20px 20px;
+    }
+
+    p.dotted {border-style: dotted;}
+
+</style>
+
+
+
+     <head>
+        <title> Builder2 </title>
+    </head>
+    <body>
+        <h1>Newbie</h1>
+        <h2>Two paragraphs that each have a different font.</h2>
+        <p1>Pokémon also known as Pocket Monsters in Japan, is a media franchise managed by The Pokémon Company,</p1> 
+        <p1>a Japanese company founded and with shares divided between
+        <p2> Nintendo, Game Freak, and Creatures.</p2>    
+
+        <h2>Two pictures that were originally different sizes, resized to 50px by 50px.</h1>
+        <a herf = "http://www.washington.edu">
+            <img src="1.png" alt="Pikachu" style="width:50px;height:50px;">
+        </a>
+        <a herf = "http://www.washington.edu">
+            <img src="2.jpg" alt="Jigglypuff" style="width:50px;height:50px;">
+        </a>
+        <h2>One more unique CSS command that was not discussed in the workshop</h2>
+        <ul>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Pokémon" target="_blank">wiki</a>
+            </li>
+           
+        </ul>
+
+
+        <h1>Apprentice.</h1>
+
+        <h2>To place text over an image:</h2>
+        <div class="container">
+            <img src="mouth.png" alt="Snow" style="width:10%;">
+            <div class="centered">Centered</div>
+        </div>
+
+        <h2>To A photo with 20 pixel margins on each side</h2>
+        <img class="ex1" src="mouth.png" alt="Snow" style="width:10%;">
+
+        
+        <h2>Text with a border that uses dotted lines</h2>
+        <p class="dotted">A dotted border.</p>
+
+
+       
+    </body>
+</html>
